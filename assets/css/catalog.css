@@ -1,0 +1,765 @@
+#showresults,
+header,
+nav {
+    align-items: center;
+    display: flex
+}
+
+nav li,
+nav ul {
+    list-style: none
+}
+
+.login-register a,
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    transition: .3s;
+    text-decoration: none
+}
+
+label,
+nav .dropdown:hover .dropdown-menu {
+    display: block
+}
+
+nav .dropdown-menu li,
+select {
+    padding: 5px
+}
+
+.wrapper .range-input,
+.wrapper .slider,
+nav .dropdown,
+nav li {
+    position: relative
+}
+
+.button-style,
+.login-register a,
+nav .dropdown>a,
+nav a {
+    text-decoration: none
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif
+}
+
+header {
+    background: #e2e2e2;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .6);
+    justify-content: space-between;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    max-height: 50px
+}
+
+header img {
+    width: 100%;
+    max-width: 90px;
+    height: 100%;
+    max-height: 60px;
+    padding-left: 20px;
+    border-radius: 20px
+}
+
+#showresults,
+nav {
+    justify-content: center
+}
+
+nav ul {
+    padding: 0;
+    margin-left: 40px;
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+nav li {
+    padding: 0 20px
+}
+
+nav a {
+    color: #1a1a1a
+}
+
+.login-register a:hover,
+nav a.active,
+nav a:hover {
+    color: #088178
+}
+
+nav a.active::after,
+nav a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px
+}
+
+nav .dropdown>a {
+    cursor: pointer
+}
+
+nav .dropdown-menu {
+    display: none;
+    width: 200px;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    padding: 8px;
+    list-style: none;
+    background: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .2)
+}
+
+.login-register {
+    text-align: end;
+    display: flex;
+    gap: 25px;
+    padding: 25px;
+    margin-right: 20px
+}
+
+.login-register a {
+    color: #333
+}
+
+#showresults button,
+.show-results button {
+    transition: background-color .3s;
+    cursor: pointer
+}
+
+.vehicleSearch {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box
+}
+
+.searchForm {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 360px;
+    max-height: 1100px;
+    background-color: rgba(0, 0, 0, .1);
+    border: 1px solid #787878
+}
+
+.check input[type=radio],
+.show-search-form {
+    display: none
+}
+
+.vehicleSearch .searchForm h2 {
+    font-size: 2.5vw;
+    font-weight: 700;
+    letter-spacing: .060em;
+    line-height: 1.5px
+}
+
+.vehicleSearch .searchForm .vehicleFormSearch {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column
+}
+
+.vehicleSearch .searchForm .vehicleFormSearch .form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box
+}
+
+.fieldset_fieldset1 {
+    margin-top: 2%;
+    display: flex;
+    justify-content: flex-start;
+    border: none;
+    padding-bottom: 2%
+}
+
+.vehichleSection {
+    display: flex;
+    flex-direction: row
+}
+
+.vehicleSearch .searchForm .vehicleFormSearch .form .fieldset_fieldset1 .check {
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+    cursor: pointer
+}
+
+.fieldset_fieldset1 .check:hover {
+    background-color: #f0f0f0
+}
+
+.vehicleSearch .checkBoxTag {
+    padding: 1em;
+    color: #282828;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    cursor: pointer
+}
+
+.brand-fieldset,
+.model-fieldset {
+    border: none;
+    padding: 10px
+}
+
+.check input[type=radio]:checked+.checkBoxTag {
+    background-color: #787878;
+    color: #fff;
+    border: 2px solid #333
+}
+
+.brand-fieldset {
+    margin-bottom: 2%
+}
+
+label {
+    margin-bottom: .5em
+}
+
+select {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px
+}
+
+h3 {
+    font-size: 1.5vw;
+    margin-bottom: 1em
+}
+
+.wrapper {
+    width: 300px;
+    padding: 2% 2.5% 4%;
+    border-radius: 10px
+}
+
+.wrapper p {
+    font-size: 1.2vw !important;
+    margin-top: 2em;
+    margin-bottom: 10%
+}
+
+.wrapper .price-input {
+    display: flex;
+    width: 100%;
+    margin: 3% 0 3.5%
+}
+
+.wrapper .price-input .field {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center
+}
+
+.price-input input {
+    width: 65%;
+    height: 100%;
+    outline: 0;
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2vw;
+    margin-left: 2%
+}
+
+.price-input input::-webkit-inner-spin-button,
+.price-input input::-webkit-outer-spin-button {
+    display: none
+}
+
+.wrapper .separator {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    margin-bottom: 10%
+}
+
+.wrapper .slider {
+    height: .3vw;
+    background-color: #ddd;
+    border-radius: 5px
+}
+
+.wrapper .progress {
+    position: absolute;
+    height: 100%;
+    left: 5%;
+    right: 20%;
+    background-color: #0074cc;
+    border-radius: 5px
+}
+
+.wrapper .range-input input {
+    position: absolute;
+    width: 100%;
+    height: .3vw;
+    top: -.3vw;
+    pointer-events: none;
+    background: 0 0;
+    appearance: none
+}
+
+.wrapper .range-input input::-webkit-slider-thumb {
+    height: 1.2vw;
+    width: 1.2vw;
+    background-color: #0074cc;
+    border-radius: 50%;
+    pointer-events: auto;
+    box-shadow: 0 0 .3vw rgba(0, 0, 0, .05)
+}
+
+.comfort-fieldset {
+    border: none;
+    padding: 10px;
+    height: auto
+}
+
+.comfort-fieldset::after,
+.comfort-fieldset::before {
+    content: "";
+    display: block;
+    border-top: 1px solid #787878;
+    width: 100%;
+    margin: 0 auto
+}
+
+.comfort-toggle button {
+    border: none;
+    background: 0 0;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.1vw;
+    margin-top: 15px;
+    margin-bottom: 20px
+}
+
+.comfort-toggle .arrow {
+    margin-left: 240px
+}
+
+.comfort-list {
+    display: flex;
+    flex-direction: column;
+    gap: .5em
+}
+
+.comfort-list label {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5em
+}
+
+.comfort-list input[type=checkbox] {
+    margin-right: 5px
+}
+
+.show-results button {
+    background-color: #088178;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-left: 105px;
+    margin-top: 20px
+}
+
+.show-results button:hover {
+    background-color: #055b4f
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    margin-left: 30px;
+    background: #f7f7f7
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e2e2e2;
+    margin-bottom: 10px
+}
+
+.categoryName {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: .75rem
+}
+
+.categoryName label {
+    margin: 0
+}
+
+.sortFieldset {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: .75rem
+}
+
+.sortFieldset .sortLabel {
+    margin-bottom: 0
+}
+
+.sortLabel {
+    margin-right: 10px
+}
+
+.results .products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: .75rem
+}
+
+.results .additional-results {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: .75rem;
+    display: none
+}
+
+.results .additional-results .product,
+.results .products-container .product {
+    width: calc(28% - 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    max-height: 350px;
+    margin-bottom: 30px;
+    position: relative;
+    transition: transform .3s, box-shadow .3s
+}
+
+.results .product:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, .15)
+}
+
+.results .product img {
+    width: 100%;
+    max-width: 200px;
+    max-height: 180px;
+    margin-bottom: 10px
+}
+
+.results .product .des {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.results .product span {
+    font-weight: 700
+}
+
+.results .product h4,
+.results .product h5 {
+    font-weight: 500;
+    margin: 10px 0
+}
+
+.results .product .star {
+    color: gold
+}
+
+.results .show-less .product {
+    max-height: none
+}
+
+.button-style {
+    background-color: #0074cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px
+}
+
+.button-style:hover {
+    background-color: #0055a9
+}
+
+.section-p1 {
+    padding: 40px 80px
+}
+
+.section-m1 {
+    margin: 40px 0
+}
+
+#showresults button {
+    background-color: none;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px
+}
+
+#showresults button .arrow2 {
+    margin-left: 5px;
+    font-size: 14px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #e2e2e2
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #e2e2e2
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px
+}
+
+footer .logo {
+    margin-bottom: 30px;
+    height: 100px;
+    width: 100px
+}
+
+footer h4 {
+    font-size: 16px;
+    padding-bottom: 20px
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0 0 8px
+}
+
+footer a {
+    font-size: 14px;
+    color: #222
+}
+
+footer .follow {
+    margin-top: 20px
+}
+
+footer .follow h4 {
+    margin-bottom: 5px
+}
+
+footer .follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer
+}
+
+footer .install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px
+}
+
+footer .install img {
+    margin: 10px 0 15px
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+
+
+@media screen and (max-width:1100px) {
+    .results .product {
+        width: calc(40% - 10px)
+    }
+}
+
+@media screen and (max-width:900px) {
+    body {
+        overflow: scroll;
+        background-attachment: fixed
+    }
+
+    nav ul {
+        margin-left: 30px;
+        gap: 5px
+    }
+
+    nav li {
+        padding: 0 8px
+    }
+
+    nav a {
+        font-size: 12px
+    }
+
+    .login-register {
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .login-register a {
+        font-size: 12px;
+        margin-right: 10px
+    }
+
+    header img {
+        width: 100%;
+        max-width: 100%;
+        height: auto
+    }
+}
+
+@media (max-width:768px) {
+    header {
+        justify-content: space-between
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        background-color: #e3e6f3;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .1)
+    }
+
+    .nav ul li {
+        font-size: 14px
+    }
+
+    .nav.active {
+        display: flex
+    }
+
+    .vehichleSection {
+        flex-direction: column
+    }
+
+    .dropdownButton {
+        display: block;
+        text-align: center;
+        margin: 1rem 0
+    }
+
+    .separator,
+    .wrapper .price-input .field span {
+        margin-right: 10px
+    }
+
+    .dropdownButton button {
+        display: block;
+        width: 100%;
+        padding: .75rem
+    }
+
+    .searchForm {
+        display: none;
+        max-width: 100%;
+        margin-bottom: 1rem
+    }
+
+    .vehicleSearch .searchForm h2 {
+        font-size: 20px
+    }
+
+    .vehicleSearch .checkBoxTag {
+        width: 90px;
+        font-size: 12px;
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 30%;
+        text-align: center;
+        align-items: center
+    }
+
+    .brand-fieldset h3 {
+        font-size: 16px
+    }
+
+    .wrapper h2 {
+        font-size: 16px !important
+    }
+
+    .wrapper p {
+        font-size: 14px !important
+    }
+
+    .show-search-form {
+        display: block;
+        padding: .75rem;
+        margin-bottom: 1rem
+    }
+
+    .wrapper .price-input .field {
+        height: 1.8rem
+    }
+
+    .separator {
+        margin-top: 7px
+    }
+
+    .results {
+        margin: 0
+    }
+
+    .results .products-container {
+        align-items: normal
+    }
+
+    .results .product {
+        width: calc(40% - 10px)
+    }
+
+    .price-input input {
+        font-size: 13px
+    }
+}

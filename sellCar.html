@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell your car</title>
+    <link rel="icon" type="image/png" href="assets/images/MYCAR.png">
+    <link rel="stylesheet" href="assets/css/sell.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="assets/images/MYCAR.png" alt="">
+        </a>
+        <nav class="header-navigation">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="buyCar.html">Buy Car</a></li>
+                <li class="dropdown">
+                    <a>Sell Car</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="sellYourCar.html">Sell with Us</a></li>
+                        <li><a href="sellCar.html">Sell your car</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="maintenance.html">Maintenance</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Change motor oil and filters</a></li>
+                        <li><a href="#">Replace spark plugs</a></li>
+                        <li><a href="#">Change tires</a></li>
+                        <li><a href="#">Others</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="login-register">
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </div>
+    </header>
+
+    <div class="create-container">
+        <div class="background-image"></div>
+        <div class="product-form-container">
+            <div class="form-info">
+                <h2>Sell Your Car</h2>
+                <p>Fill out the details below to list your car for sale on our website. Make sure to provide accurate information to attract potential buyers.</p>
+            </div>
+            <div class="form-group">
+                <label for="price">Price:</label>
+                <input type="number" id="price" name="price">
+            </div>
+            <div class="form-group">
+                <label for="brand">Brand:</label>
+                <select id="brand">
+                    <option value>---</option>
+                    <option value="audi">Audi</option>
+                    <option value="bmw">BMW</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="suzuki">Suzuki</option>
+                    <option value="toyota">Toyota</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="model">Model:</label>
+                <select id="model">
+                    <option value>---</option>
+                </select>            </div>
+            <div class="form-group">
+                <label for="fuel">Fuel:</label>
+                <select id="brand">
+                    <option value>---</option>
+                    <option value="automatic">Diesel</option>
+                    <option value="manual">Gasoline</option>
+                    <option value="semi-Automatic">Hybrid</option>
+                    <option value="semi-Automatic">Electric</option>
+                    <option value="semi-Automatic">Gas</option>
+                </select>            </div>
+            <div class="form-group">
+                <label for="transmission">Transmission:</label>
+                <select id="transmission">
+                    <option value>---</option>
+                    <option value="automatic">Automatic</option>
+                    <option value="manual">Manual</option>
+                    <option value="semi-Automatic">Semi-Automatic</option>
+                </select>           
+             </div>
+            <div class="form-group"  style="background-color: none;">
+                <fieldset class="comfort-fieldset" >
+                    <div class="comfort-toggle" >
+                        <button id="toggle-comforts">
+                            Comforts <span class="arrow">&#9660;</span>
+                        </button>
+                    </div>
+                    <div class="comfort-list">
+                        <label>
+                            <input type="checkbox" id="comfort1" name="comfort" value="comfort1"> Leather
+                            seats
+                        </label>
+                        <label>
+                            <input type="checkbox" id="comfort2" name="comfort" value="comfort2"> Climate
+                            control
+                        </label>
+                        <label>
+                            <input type="checkbox" id="comfort3" name="comfort" value="comfort3"> Auto/Start
+                            Stop Function
+                        </label>
+                        <label>
+                            <input type="checkbox" id="comfort4" name="comfort" value="comfort4"> Bluetooth
+                        </label>
+                        <label>
+                            <input type="checkbox" id="comfort5" name="comfort" value="comfort5">
+                            Steptronic, Tiptronic
+                        </label>
+                        <label>
+                            <input type="checkbox" id="comfort6" name="comfort" value="comfort6">
+                            Bordcomputer
+                        </label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="form-group">
+                <label for="transmission">Type:</label>
+                <select id="transmission">
+                    <option value>---</option>
+                    <option value="new">New</option>
+                    <option value="manual">Used</option>
+                    <option value="for-parts">For parts</option>
+                </select>           
+             </div>
+             <div class="form-group">
+                <label for="product-image">Product Images (up to 3):</label>
+                <input type="file" id="product-image" name="product-image" accept="image/*" multiple="multiple" max="3" required>
+                <div id="image-preview-container"></div>
+            </div>
+            <button class="publish-button" type="submit">Publish</button>
+        </div>    
+    </div>
+    
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="assets/images/MYCAR.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Kliment Ohridski №72, Kornitsa, Bulgaria</p>
+            <p><strong>Phone:</strong> +359899384275</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="/about.html">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="/contact.html">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="assets/images/app.jpg" alt="">
+                <img src="assets/images/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="assets/images/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© Mycar.com, Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

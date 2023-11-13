@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="icon" type="image/png" href="assets/images/MYCAR.png">
+    <link rel="stylesheet" href="assets/css/register.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="assets/images/MYCAR.png" alt="">
+        </a>
+        <nav class="header-navigation">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="buyCar.html">Buy Car</a></li>
+                <li class="dropdown">
+                    <a>Sell Car</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="sellYourCar.html">Sell with Us</a></li>
+                        <li><a href="sellCar.html">Sell your car</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="maintenance.html">Maintenance</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Change motor oil and filters</a></li>
+                        <li><a href="#">Replace spark plugs</a></li>
+                        <li><a href="#">Change tires</a></li>
+                        <li><a href="#">Others</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="login-register">
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </div>
+    </header>
+
+    <div class="register-container">
+        <div class="background-image"></div>
+        <div class="left-column">
+            <div class="title-container">
+                <h1>Create Account</h1>
+                <p>We're so excited to see you!</p>
+            </div>
+            <form method="POST">
+                <label for="emailOrPassword">Email or phone number <span>*</span></label>
+                <input type="text" name="username" id="username">
+                <label for="password">Username <span>*</span></label>
+                <input type="text" name="emailOrPassword" id="emailOrPassword">
+                <label for="password">Password <span>*</span></label>
+                <input type="password" name="password" id="password">
+                <label for="password">Repeat Password <span>*</span></label>
+                <input type="password" name="repeatPass" id="repeatPass">
+                <a href="login.html">You have an account, go to Login page</a>
+                <input type="submit" value="Register">
+            </form>
+            <p>Need an account? <a href="register.html">Register</a></p>
+        </div>
+    </div>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="assets/images/MYCAR.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Kliment Ohridski №72, Kornitsa, Bulgaria</p>
+            <p><strong>Phone:</strong> +359899384275</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="/about.html">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="/contact.html">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="assets/images/app.jpg" alt="">
+                <img src="assets/images/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="assets/images/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© Mycar.com, Inc. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
