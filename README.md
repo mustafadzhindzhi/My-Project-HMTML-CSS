@@ -8,12 +8,11 @@
 <img width="1440" alt="Screenshot 2024-01-06 at 14 38 34" src="https://github.com/mustafadzhindzhi/My-Project-HMTML-CSS/assets/122883380/30bf1dca-6cc0-479d-9cca-02b284e2b94e">
 
 # Buy Car 
-<img width="1440" alt="Screenshot 2024-01-06 at 14 41 23" src="https://github.com/mustafadzhindzhi/My-Project-HMTML-CSS/assets/122883380/0cad22db-8af7-40a8-ae5e-4218e71ccd54">
-<img width="1440" alt="Screenshot 2024-01-06 at 14 51 58" src="https://github.com/mustafadzhindzhi/My-Project-HMTML-CSS/assets/122883380/9c7a82fe-5838-44d0-859e-1ecc3d7de189">
+<img width="1440" alt="Screenshot 2024-01-07 at 18 01 42" src="https://github.com/mustafadzhindzhi/My-Project-HMTML-CSS/assets/122883380/1fa483b1-9b3b-4e1b-ada0-fdca6a359548">
+<img width="1440" alt="Screenshot 2024-01-07 at 18 02 06" src="https://github.com/mustafadzhindzhi/My-Project-HMTML-CSS/assets/122883380/84b9a3ba-cd47-4b9c-86de-b8b2bec22925">
+<img width="1440" alt="Screenshot 2024-01-07 at 18 02 20" src="https://github.com/mustafadzhindzhi/My-Project-HMTML-CSS/assets/122883380/62fc4910-093a-4e2d-8704-0ce2e103b8e9">
+<img width="1440" alt="Screenshot 2024-01-07 at 18 02 39" src="https://github.com/mustafadzhindzhi/My-Project-HMTML-CSS/assets/122883380/1992d07f-5a40-4f08-bc19-c0629cf05413">
 
-<img width="1440" alt="Screenshot 2024-01-06 at 14 53 39" src="https://github.com/mustafadzhindzhi/My-Project-HMTML-CSS/assets/122883380/37eb25b6-8cf3-4485-a44f-e9fc4f0c0c97">
-<img width="1440" alt="Screenshot 2024-01-06 at 14 54 29" src="https://github.com/mustafadzhindzhi/My-Project-HMTML-CSS/assets/122883380/d3a7d312-5b12-43b3-967a-afee4740c6c1">
-<img width="1440" alt="Screenshot 2024-01-06 at 14 55 21" src="https://github.com/mustafadzhindzhi/My-Project-HMTML-CSS/assets/122883380/48663973-4b3c-467a-9c84-dd65dafdaec9">
 
 # Sell Car
 Sell to Us
@@ -42,6 +41,12 @@ Sell your car
 # Register
 <img width="1440" alt="Screenshot 2024-01-06 at 14 46 14" src="https://github.com/mustafadzhindzhi/My-Project-HMTML-CSS/assets/122883380/95b7c62f-8d1d-4d53-9018-1b12719f8faf">
 <img width="1440" alt="Screenshot 2024-01-06 at 14 46 34" src="https://github.com/mustafadzhindzhi/My-Project-HMTML-CSS/assets/122883380/5f7d69c2-c307-4edb-97fc-ab34a375d44a">
+
+# Details
+<img width="1440" alt="Screenshot 2024-01-09 at 20 13 43" src="https://github.com/mustafadzhindzhi/My-Project-HMTML-CSS/assets/122883380/255f4aa3-db37-4e3d-a95c-2bb09be1b8ff">
+<img width="1440" alt="Screenshot 2024-01-09 at 20 14 07" src="https://github.com/mustafadzhindzhi/My-Project-HMTML-CSS/assets/122883380/34098769-4f6c-4efb-aaec-62158647dff9">
+<img width="1440" alt="Screenshot 2024-01-09 at 20 14 21" src="https://github.com/mustafadzhindzhi/My-Project-HMTML-CSS/assets/122883380/fbf67564-f7d7-4e44-b6c3-104fa4a49a59">
+
 
 
 
